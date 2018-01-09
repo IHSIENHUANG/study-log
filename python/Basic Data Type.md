@@ -27,3 +27,4 @@ if __name__ == '__main__':
         else:
             eval("LIST.{0}()".format(cmd))
 ```
+## tuple hash
