@@ -45,4 +45,5 @@ https://www.hackerrank.com/challenges/list-comprehensions/problem
 ```output
 output: [[0, 0, 0], [0, 0, 1], [0, 1, 0], [1, 0, 0], [1, 1, 1]] 
 ```
+## map(function, sequence)
 ## tuple hash
