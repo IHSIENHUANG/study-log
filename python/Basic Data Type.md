@@ -27,4 +27,21 @@ if __name__ == '__main__':
         else:
             eval("LIST.{0}()".format(cmd))
 ```
++ the element in a list is anotehr list
+https://www.hackerrank.com/challenges/list-comprehensions/problem
+```python
+ ar=[]
+    p=0
+    for i in range ( x + 1 ) :
+        for j in range( y + 1):
+            for k in range(z+1):
+                if i+j+k != n:
+                    ar.append([])
+                    ar[p] = [ i , j, k ]
+                    p+=1
+    print ar
+```
+```output
+output: [[0, 0, 0], [0, 0, 1], [0, 1, 0], [1, 0, 0], [1, 1, 1]] 
+```
 ## tuple hash
