@@ -30,6 +30,7 @@ if __name__ == '__main__':
 + the element in a list is anotehr list
 https://www.hackerrank.com/challenges/list-comprehensions/problem
 ```python
+# x =1 y =1 z=1
  ar=[]
     p=0
     for i in range ( x + 1 ) :
